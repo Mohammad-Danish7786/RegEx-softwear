@@ -6,10 +6,7 @@ int main()
     int jump = 6;
     string s;
 
-    cout << "enter your value of jump: \n";
-    cin >> jump;
-
-    if (jump < 0 || jump >= 6)
+      if (jump < 0 || jump >= 6)
     {
         cout << "user has entered an invailid input \n";
         return 0;
